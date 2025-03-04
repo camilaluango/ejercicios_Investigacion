@@ -57,3 +57,5 @@
 //let bruno = new perro("Bruno")
 //
 //console.log(bruno.comunicacion())
+
+//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Classes
