@@ -15,24 +15,24 @@
 
 //ejercicio 2
 
-const numeros = [5,10,15,20];
-
-numeros.forEach(function(numero, index){
-    let cuadrado = Math.pow(numero, 2)
-    console.log(`el elemento en la posicion: `+ index + `tiene el valor: ` + numero + `.  Su valor al cuadrado es: ` + cuadrado);
-})
+//const numeros = [5,10,15,20];
+//
+//numeros.forEach(function(numero, index){
+//    let cuadrado = Math.pow(numero, 2)
+//    console.log(`el elemento en la posicion: `+ index + `tiene el valor: ` + numero + `.  Su valor al cuadrado es: ` + cuadrado);
+//})
 
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 
 //ejercicio 3
 
-//let usuario = {
-//    nombre: "camila",
-//    edad: 21
-//};
-//
-//console.log(usuario.hasOwnProperty(`nombre`));
-//console.log(usuario.hasOwnProperty(`pasatiempo`));
+let usuario = {
+    nombre: "camila",
+    edad: 21
+};
+
+console.log(usuario.hasOwnProperty(`nombre`));
+console.log(usuario.hasOwnProperty(`pasatiempo`));
 
 //https://aiweblearning.com/validar-si-un-objeto-tiene-un-elemento-en-javascript/
 
