@@ -26,34 +26,34 @@
 
 //ejercicio 3
 
-let usuario = {
-    nombre: "camila",
-    edad: 21
-};
-
-console.log(usuario.hasOwnProperty(`nombre`));
-console.log(usuario.hasOwnProperty(`pasatiempo`));
+//let usuario = {
+//    nombre: "camila",
+//    edad: 21
+//};
+//
+//console.log(usuario.hasOwnProperty(`nombre`));
+//console.log(usuario.hasOwnProperty(`pasatiempo`));
 
 //https://aiweblearning.com/validar-si-un-objeto-tiene-un-elemento-en-javascript/
 
 //ejercicio 4
 
-//class animal {
-//    constructor(nombre) {
-//        this.nombre = nombre;
-//    }
-//
-//    comunicacion() {
-//        return this.nombre + `hace ruido`
-//    }
-//}
-//
-//class perro extends animal {
-//    comunicacion(){
-//        return this.nombre + ` ladra`
-//    }
-//}
-//
-//let bruno = new perro("Bruno")
-//
-//console.log(bruno.comunicacion())
+class animal {
+    constructor(nombre) {
+        this.nombre = nombre;
+    }
+
+    comunicacion() {
+        return this.nombre + `hace ruido`
+    }
+}
+
+class perro extends animal {
+    comunicacion(){
+        return this.nombre + ` ladra`
+    }
+}
+
+let bruno = new perro("Bruno")
+
+console.log(bruno.comunicacion())
