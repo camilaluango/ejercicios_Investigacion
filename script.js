@@ -1,11 +1,11 @@
 //ejercicio 1
 
-const frutas = ["pera","mango","manzana","lulo"];
-
-frutas.forEach(function(fruta, index){
-    console.log(`indice: ` + index + `, mayusculas: ` + fruta.toUpperCase() +`, valor: ` + fruta);
-    console.log(fruta)
-})
+//const frutas = ["pera","mango","manzana","lulo"];
+//
+//frutas.forEach(function(fruta, index){
+//    console.log(`indice: ` + index + `, mayusculas: ` + fruta.toUpperCase() +`, valor: ` + fruta);
+//    console.log(fruta)
+//})
 
 
 //https://www.freecodecamp.org/espanol/news/foreach-en-javascript-como-recorrer-un-arreglo-en-js/
@@ -15,12 +15,12 @@ frutas.forEach(function(fruta, index){
 
 //ejercicio 2
 
-//const numeros = [5,10,15,20];
-//
-//numeros.forEach(function(numero, index){
-//    let cuadrado = Math.pow(numero, 2)
-//    console.log(`el elemento en la posicion: `+ index + `tiene el valor: ` + numero + `.  Su valor al cuadrado es: ` + cuadrado);
-//})
+const numeros = [5,10,15,20];
+
+numeros.forEach(function(numero, index){
+    let cuadrado = Math.pow(numero, 2)
+    console.log(`el elemento en la posicion: `+ index + `tiene el valor: ` + numero + `.  Su valor al cuadrado es: ` + cuadrado);
+})
 
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
 
