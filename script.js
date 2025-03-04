@@ -38,22 +38,22 @@
 
 //ejercicio 4
 
-class animal {
-    constructor(nombre) {
-        this.nombre = nombre;
-    }
-
-    comunicacion() {
-        return this.nombre + `hace ruido`
-    }
-}
-
-class perro extends animal {
-    comunicacion(){
-        return this.nombre + ` ladra`
-    }
-}
-
-let bruno = new perro("Bruno")
-
-console.log(bruno.comunicacion())
+//class animal {
+//    constructor(nombre) {
+//        this.nombre = nombre;
+//    }
+//
+//    comunicacion() {
+//        return this.nombre + `hace ruido`
+//    }
+//}
+//
+//class perro extends animal {
+//    comunicacion(){
+//        return this.nombre + ` ladra`
+//    }
+//}
+//
+//let bruno = new perro("Bruno")
+//
+//console.log(bruno.comunicacion())
